@@ -10,9 +10,13 @@ namespace EndRow
     {
         static void Main(string[] args)
         {
+            int firstElemetRow = 7;
+            int stepRow = 7;
+            int limitRow = 100;
+
             string myRow = "";
 
-            for (int i = 7; i < 100; i+=7)
+            for (int i = firstElemetRow; i < limitRow; i+=stepRow)
             {
                 myRow = myRow + " " +i; 
             }
